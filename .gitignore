@@ -1,6 +1,6 @@
+# Jekyll Files
 _site/
-.sass-cache/
-.jekyll-cache/
-.bundle/
-vendor/
+template/
+
+# MacOS Files
 .DS_Store
