@@ -1,0 +1,37 @@
+title: "Anurag Khandelwal"
+description: "Assistant Professor, Yale University — systems, networking, security, and computer architecture."
+url: ""   # set to https://<username>.github.io or your custom domain
+baseurl: "" # keep empty for user/organization pages
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Clean URLs
+permalink: pretty
+
+# Exclude build files
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+
+# Scholar (BibTeX → publications)
+scholar:
+  style: apa
+  locale: en
+  bibliography: assets/bib/pubs.bib
+  bibliography_template: bib_entry
+  sort_by: year,month
+  order: descending
+  group_by: year
+  group_order: descending
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

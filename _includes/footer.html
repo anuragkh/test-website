@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="y"></span> {{ site.title }} · Built with Jekyll · Hosted on GitHub Pages
+    </div>
+    <div class="footer-links">
+      <a href="https://scholar.google.com/citations?hl=en&user=LlfHFqUAAAAJ">Google Scholar</a>
+      <a href="https://github.com/">GitHub</a>
+      <a href="mailto:anurag.khandelwal@yale.edu">Email</a>
+    </div>
+  </div>
+</footer>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
