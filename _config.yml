@@ -8,6 +8,9 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+plugins:
+  - jekyll-scholar
+
 # Clean URLs
 permalink: pretty
 
